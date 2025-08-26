@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f3f2ef; /* LinkedIn-like background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Card container */
+  #result {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  #result:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+  
+  /* Profile image */
+  #result img {
+    border-radius: 50%;
+    border: 3px solid #0a66c2; /* LinkedIn blue */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Name styling */
+  #result h2 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  /* Username and info */
+  #result p {
+    margin: 6px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Links */
+  #result a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #0a66c2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background 0.2s ease;
+  }
+  
+  #result a:hover {
+    background: #004182;
+  }
+  .main-container{
+text-align: left !important;
+
+  }
